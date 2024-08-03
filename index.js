@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const PORT = 8000;
 
-app.set("view engine", "ejs");
+app.set("view engine11", "ejs");
 app.set("views", path.resolve("./views"));
 
 app.use(express.json());
